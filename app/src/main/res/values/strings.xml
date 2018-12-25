@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">gym_pilot</string>
+    <string name="app_title">Awaile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_qrcode">Qrcode</string>
+    <string name="action_notification">Notification</string>
+    <string name="action_Location">Loccation</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login2">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_login_header">Login into Awaile account</string>
+    <string name="prompt_signup_header">Sign up using Email</string>
+    <string name="prompt_forgot_header">Forgot Password?</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_mobile">Mobile number</string>
+    <string name="prompt_otp">OTP</string>
+    <string name="helper_password_reg">Minimum 6 Characters</string>
+    <string name="login_btn_text">Log in</string>
+    <string name="progress_login_text">Verifying credentials</string>
+    <string name="reg_btn_text">Welcome Aboard</string>
+    <string name="reg_btn_otp">Verify OTP</string>
+    <string name="forgot_pwd_btn_text">Forgot Password?</string>
+    <string name="gym_card_name">Cult fit</string>
+    <string name="gym_card_location_text">Kundalhalli, Bangalore.</string>
+    <string name="signup_btn_text">New to Awaile? Signup</string>
+    <string name="pwd_reset_btn_text">Submit</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="google_sign_in">Continue with Google</string>
+    <string name="facebook_sign_in">Continue with Facebook</string>
+    <!--Strings related to facebook Login-->
+    <string name="facebook_app_id">510068239513968</string>
+    <string name="fb_login_protocol_scheme">fb510068239513968</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

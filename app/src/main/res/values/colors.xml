@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorSplash">#CB202D</color>
+    <color name="colorSplash60">#99CB202D</color>
+    <color name="colorSplash87">#DECB202D</color>
+    <color name="colorSplashDark">#A21924</color>
+    <color name="colorSplashLight">#DA626C</color>
+    <color name="colorSplashGradient">#79131b</color>
+    <color name="colorSplashText">#F4F4F2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite87">#DEFFFFFF</color>
+    <color name="colorWhite60">#99FFFFFF</color>
+    <color name="colorWhite30">#1EFFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack87">#DE000000</color>
+    <color name="colorBlack60">#99000000</color>
+    <color name="colorFacebook">#3B5998</color>
+    <color name="colorFacebookDark">#293e6a</color>
+    <color name="colorGmail">#D44638</color>
+    <color name="colorGmailDark">#943127</color>
+    <color name="colorMail">#595959</color>
+    <color name="colorMailDark">#3E3E3E</color>
+    <color name="colorRating">#099E44</color>
+    <color name="colorIcon">#5f6368</color>
+
+    <color name="colorLoginTextInputOutlinedBox">#741Df0</color>
+    <color name="colorLoginTextInputOutlinedBoxDark">#5114A8</color>
+    <color name="colorLoginTextInputBox">#A5A5A5</color>
+
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

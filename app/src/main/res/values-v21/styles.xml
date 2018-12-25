@@ -1,0 +1,105 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorSplashDark</item>
+    </style>
+
+    <style name="login_signup_prompt_text">
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="login_signup_text_input" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:fontFamily">@font/robotocondensed_light</item>
+        <item name="android:textColorHint">@color/colorLoginTextInputBox</item>
+        <item name="boxStrokeColor">@color/colorLoginTextInputOutlinedBox</item>
+        <item name="boxStrokeWidth">3dp</item>
+    </style>
+
+    <style name="login_btn" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:backgroundTint">@color/colorLoginTextInputOutlinedBox</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="rippleColor">@color/colorWhite87</item>
+        <item name="android:textColor">@color/colorSplashText</item>
+        <item name="android:height">48dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="forgot_pwd_btn" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorSplash</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="signup_btn" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/colorLoginTextInputOutlinedBox</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeColor">@color/colorLoginTextInputOutlinedBox</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:height">48dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="google_signin_btn" >
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:backgroundTint">@color/colorGmail</item>
+        <item name="android:drawableLeft">@drawable/ic_google_glass</item>
+        <item name="android:textColor">@color/colorSplashText</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="rippleColor">@color/colorWhite</item>
+    </style>
+
+    <style name="facebook_signin_btn">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:drawableLeft">@drawable/ic_facebook</item>
+        <item name="android:textColor">@color/colorSplashText</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">@color/colorFacebook</item>
+        <item name="android:textSize">18dp</item>
+        <item name="rippleColor">@color/colorWhite</item>
+    </style>
+
+    <style name="email_signin_btn">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:drawableLeft">@drawable/ic_email_open</item>
+        <item name="android:textColor">@color/colorSplashText</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">@color/colorMail</item>
+        <item name="android:textSize">18dp</item>
+        <item name="rippleColor">@color/colorWhite</item>
+    </style>
+
+    <style name="gym_name_style">
+        <item name="android:textSize">24dp</item>
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+    </style>
+
+    <style name="gym_location_style">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/colorBlack60</item>
+    </style>
+
+    <style name="distance_style">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/robotocondensed_light</item>
+        <item name="android:textColor">@color/colorSplash87</item>
+    </style>
+
+    <style name="rating_style">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/colorWhite87</item>
+    </style>
+
+
+</resources>

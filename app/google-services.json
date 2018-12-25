@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970351506678",
+    "firebase_url": "https://gympilot-1540225540579.firebaseio.com",
+    "project_id": "gympilot-1540225540579",
+    "storage_bucket": "gympilot-1540225540579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970351506678:android:6b90f56035772a1e",
+        "android_client_info": {
+          "package_name": "com.example.susmitha.gym_pilot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970351506678-s45seh980otugtl1ar8k8mduteoo866r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.susmitha.gym_pilot",
+            "certificate_hash": "19690e8318982a229c968474017dcff852fdbcc2"
+          }
+        },
+        {
+          "client_id": "970351506678-3ei5ql9s404o21rm3eb6bbf8vvi6u3k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2f9PYu9lxg08f0HIjS_yem7DjdhAnc0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970351506678-3ei5ql9s404o21rm3eb6bbf8vvi6u3k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

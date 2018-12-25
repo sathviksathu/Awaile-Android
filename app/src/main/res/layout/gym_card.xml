@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Each CardView-->
+    <android.support.design.card.MaterialCardView
+        android:id="@+id/gymcardView"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        app:cardPreventCornerOverlap="true"
+        android:elevation="8dp"
+        android:translationZ="6dp"
+        android:layout_marginLeft="@dimen/mtrl_card_spacing"
+        android:layout_marginTop="@dimen/mtrl_card_spacing"
+        android:layout_marginRight="@dimen/mtrl_card_spacing"
+        android:minHeight="200dp">
+        <!--Components of CardView-->
+        <RelativeLayout
+            android:id="@+id/cardeViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <ImageView
+                android:id="@+id/image_id"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/ic_launcher"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image_id"
+                android:layout_marginLeft="16dp">
+
+                <TextView
+                    android:id="@+id/gym_name"
+                    style="@style/gym_name_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gym_card_name"/>
+
+                <TextView
+                    android:id="@+id/gym_location"
+                    style="@style/gym_location_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gym_name"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/gym_card_location_text"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/distance_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:id="@+id/distance"
+                    style="@style/distance_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.2 Kms away"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:background="@color/colorRating">
+
+                <TextView
+                    android:id="@+id/rating"
+                    style="@style/rating_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.1" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+</LinearLayout>
